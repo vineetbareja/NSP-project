@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> questions</title>
+
+
+        <style>
+            body {
+            background-color: #c6a7d5;
+            font-family: Verdana;
+            text-align: center;
+        }
+            form {
+                background-color: rgb(234, 187, 223);
+                max-width: 900px;
+                margin: 100px auto;
+                padding: 30px 20px;
+                box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+            }
+     
+            /* Styling form-control Class */
+            .form-control {
+                text-align: left;
+                margin-bottom: 25px;
+            }
+     
+            /* Styling form-control Label */
+            .form-control label {
+                display: block;
+                margin-bottom: 10px;
+            }
+     
+            /* Styling form-control input,
+            select, textarea */
+            .form-control input,
+            .form-control select,
+            .form-control textarea {
+                border: 1px solid #777;
+                border-radius: 2px;
+                font-family: inherit;
+                
+                display: block;
+                width: 95%;
+            }
+     
+            /* Styling form-control Checkbox */
+        
+            .form-control input[type="checkbox"] {
+                display: inline-block;
+                width: auto;
+            }
+     
+            /* Styling Button */
+            button {
+                background-color: #a4a2a2;
+                border: 1px solid #777;
+                border-radius: 2px;
+                font-family: inherit;
+                font-size: 21px;
+                display: block;
+                width: 100%;
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+       <form id="form">
+        <div class="form-control">
+           <label for="q1"> Why did you choose the following languages?</label>
+            <input type="text" id="q1">
+        </div>
+
+
+        <div class="form-control">
+            <label for="q2"> How difficult do you think it is to learn programming as a beginner?</label>
+            <input type="text" id="q2">
+        </div>
+
+
+        <div class="form-control">
+            <label for="q3"> Would you recommend this language to beginners?</label>
+            <input type="text" id="q3">
+        </div>
+
+
+        <div class="form-control">
+            <label > How easy was this language to learn ?</label>
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Basic</input></label>
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Intermediate</input></label>
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Hard</input></label>
+        </div>
+
+        <div class="form-control">
+            <label for="q4"> Are there any limitations of your selected languages?</label>
+            <input type="text" id="q4">
+        </div>
+        <div class="form-control">
+            <label for="q5"> Are there any prerequisites to learning your selected languages?</label>
+            <input type="text" id="q5">
+        </div>
+        <button type="submit" value="submit">
+            <a href="thanks.html">Submit</a>
+         </button>
+       </form>
+    </body>
+</html>
